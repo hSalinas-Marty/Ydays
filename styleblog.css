@@ -1,0 +1,48 @@
+
+/*////////////////////////// Mise en pages principale///////////////////////////////// */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 30px 10px;
+    margin-bottom: 5px;
+}
+header, footer{
+    color: rgb(255, 255, 255);
+    background-color: #72224D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    padding: 30px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(249, 247, 250);
+}
+
+
+/*////////////////////////// Mise en pages blog///////////////////////////////// */
+
+img {
+   
+    margin: auto;
+    display: flex;
+}
+
+.texte_image1{
+    margin-top: 10px; 
+    font-size: 16px;
+}
