@@ -5,17 +5,26 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Giaza';
+    src: url('/font/giaza-webfont.woff')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 header{
     padding: 30px 10px;
     margin-bottom: 5px;
 }
 header, footer{
-    color: rgb(255, 255, 255);
+    font-family: 'Giaza';
+    color: #FFFCF7;
     background-color: #72224D;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 footer{
     padding: 30px;
     margin-top: 5px;
