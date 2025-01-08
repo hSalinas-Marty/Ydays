@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ynosphere</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/lelogo.ico" href="/image/lelogo.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
     <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
 </head>
 <body>
@@ -23,38 +25,72 @@
             </li>
         </ul>
     </header>
-
-    <section id="section1">
-        <a href="/blog1.html"><img src="/image/Exemple.png" alt="test">  </a>
-        <p>cette image contient un lien si vous cliquez dessus</p>
-    </section>
-
-    <section id="a propose de nous">
-        
-    </section>
-
-
-    <section class="test">
-        <h1>Titre de l'article</h1>
-        <p>on donne un contexte au titre</p>
-        <div class="premiereligne">
-            <a href="https://example.com/" >
-                <div class="box">
-                    <img src="/image/Exemple.png">        
-                </div>
+    <a href="/blog1.html">
+        <section id="section1">
+            <img src="/image/Exemple.png" alt="test">  </a>
+            <p>cette image contient un lien si vous cliquez dessus</p>
+        </section>
+    </a>
+    <a href="https://example.com/" >
+        <section class="block" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+            <div>
+                <img src="/image/Exemple.png">
+                <h2>Titre de l'article</h2>
+                <p>on donne un contexte au titre</p>
                 <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
-            </a>
-        </div>
-
-    </section>
-    <div class="premiereligne">
-        <a href="https://example.com/" >
-            <div class="box">
-                <img src="/image/Exemple.png">        
             </div>
-            <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
-        </a>
-    </div>
+        </section>
+    </a>
+    <a href="https://example.com/">
+        <section class="block" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+            <div>
+                <img src="/image/Exemple.png">
+                <h2>Titre de l'article</h2>
+                <p>on donne un contexte au titre</p>
+                <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
+            </div>
+        </section>
+    </a>
+    <a href="https://example.com/">
+        <section class="block" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+            <div>
+                <img src="/image/Exemple.png">
+                <h2>Titre de l'article</h2>
+                <p>on donne un contexte au titre</p>
+                <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
+            </div>
+        </section>
+    </a>
+    <a href="https://example.com/">
+        <section class="block" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+            <div>
+                <img src="/image/Exemple.png">
+                <h2>Titre de l'article</h2>
+                <p>on donne un contexte au titre</p>
+                <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
+            </div>
+        </section>
+    </a>
+    <a href="https://example.com/">
+        <section class="block" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+            <div>
+                <img src="/image/Exemple.png">
+                <h2>Titre de l'article</h2>
+                <p>on donne un contexte au titre</p>
+                <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
+            </div>
+        </section>
+    </a>
+    <a href="https://example.com/">
+        <section class="block" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+            <div>
+                <img src="/image/Exemple.png">
+                <h2>Titre de l'article</h2>
+                <p>on donne un contexte au titre</p>
+                <h3>si on appuie sur l'icon ça fait aussi un lien</h3>
+            </div>
+        </section>
+    </a>
     <section>
 
     </section>
@@ -73,4 +109,15 @@
 
     </footer>
 </body>
+<script>
+    function bigImg(x) {
+      x.style.height = "285px";
+      x.style.width = "385px";
+    }
+    
+    function normalImg(x) {
+      x.style.height = "275px";
+      x.style.width = "375px";
+    }
+    </script>
 </html>
