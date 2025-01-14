@@ -8,10 +8,14 @@
     format('opentype');
     font-weight: normal;
     font-style: normal;
+    
 }
 header{
-    padding: 30px 10px;
-    margin-bottom: 5px;
+    padding: 15px;
+}
+.petitY{
+    width: 70px;
+    height: auto ; 
 }
 header, footer{
     font-family: 'Giaza';
@@ -20,6 +24,7 @@ header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 body{
     color: black;
@@ -32,7 +37,7 @@ ul, li{
 }
 li{
     list-style: none;
-    padding: 7px;
+    padding: 10px;
     cursor: pointer;
 }
 a{
@@ -52,11 +57,12 @@ a{
     height: 300px;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 10px 5px 5px black;
+   /* box-shadow: 10px 5px 5px black; */
 } 
 img{
     height: 200px;
     width: 200px;
+    border-radius: 25px;
 }
 /*.premiereligne{
     display: inline-flex;
@@ -77,8 +83,9 @@ section{
 .block{
     color: black;
     border-radius: 5%;
-    box-shadow: 10px 5px 5px rgb(84, 83, 83);
+    /*box-shadow: 10px 5px 5px rgb(84, 83, 83);*/
     background-color: #eee5e5;
     padding: 30px 41px;
     margin: 20px 20px;
+    position: sticky;
 }
